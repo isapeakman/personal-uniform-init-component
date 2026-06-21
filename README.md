@@ -1,4 +1,4 @@
-# Service Uniform Init Demo
+# personal-uniform-init-component
 
 ## 📝 项目说明
 
