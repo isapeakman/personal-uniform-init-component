@@ -292,7 +292,6 @@ public class ComponentService extends AbstractApplicationPostConstructHandler {
 3. 需要复杂的条件判断
 4. 性能是首要考虑因素
 
-## 🚫 排除的组件
 
 ## ⚡ 优化说明
 
@@ -305,13 +304,6 @@ public class ComponentService extends AbstractApplicationPostConstructHandler {
 
 本项目使用 Spring Boot Auto-Configuration，无需额外配置。在 Spring Boot 应用中引入依赖后，自动配置类 `ServiceInitAutoConfig` 会被自动加载。
 
-## 🚫 排除的组件
-
-以下原始 damai-service-initialize 项目的组件未被包含：
-
-- 组合模式实现（CompositeContainer, AbstractComposite 等）
-- 复杂的分层执行逻辑
-- 自定义组合模式异常处理
 
 ## 🔄 是否可以完全替代原本的方式？
 
